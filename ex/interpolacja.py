@@ -15,3 +15,4 @@ print("\nlista x0, x1, .. xn:")
 for l in lista:
     print(l)
 
+
