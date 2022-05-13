@@ -1,5 +1,0 @@
-r = open("ex/dane.txt", "r")
-b = r.readline()
-c = int(b)
-print(c)
-print(type(c))
