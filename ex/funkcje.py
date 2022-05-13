@@ -7,6 +7,9 @@ def readData():
     for i in range(len(dane)):
         dane[i][1] = dane[i][1].rstrip("\n")
     f.close()
+    for i in range(0,len(dane)):
+        for j in range(0,2):
+            dane[i][j] = float(dane[i][j]) 
     return dane
 
 def listChar(s):
