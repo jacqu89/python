@@ -35,7 +35,7 @@ def dataList(s):
     w = []
     for i in range(0,len(l)):
         for j in range(0,len(l[0])):
-            t.append(float(y[ord(l[i][j])-65][1]))
+            t.append(float(y[ord(l[i][j])-65][0]))
         w.append(t)
         t = []
     return w
